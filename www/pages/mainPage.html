@@ -1,0 +1,77 @@
+<div class="page" data-name="mainPage">
+    <div class="navbar">
+        <div class="navbar-bg green-bg"></div>
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a class="link back">
+                    <i class="icon icon-back color-white"></i>
+                </a>
+            </div>
+            <div class="title color-white">Home</div>
+            <div class="right">
+                <a class="link">
+                    <i class="icon f7-icons panel-open color-white">bars</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-right panel-right panel-reveal panel-resizable panel-init">
+
+        <a href="/mainPage/" class="panel-button">
+            Gyms
+        </a>
+        <a href="/OrdersList/" class="panel-button">
+            Orders
+        </a>
+        <a href="/UsersList/" class="panel-button">
+            Users
+        </a>
+    </div>
+    <div class="page-content">
+        <br>
+        <div class="row">
+            <div class="col-95"></div>
+            <div class="col-5">
+                <div class="text-align-center" onclick="createGym()">
+                    <i class="icon f7-icons abb-btn green-color">plus_circle_fill</i>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="data-table card">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="numeric-cell">ID</th>
+                        <th class="medium-only">Gym ID</th>
+                        <th class="medium-only">Name</th>
+                        <th class="numeric-cell">Rate</th>
+                        <th class="medium-only">Visits</th>
+                        <th class="medium-only">Address</th>
+                        <th class="medium-only">&nbsp; Work Time &nbsp;</th>
+                        <th class="medium-only">coordinates</th>
+                        <th class="medium-only">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </th>
+                        <th class="medium-only">E-mail</th>
+                        <th class="medium-only">Price D</th>
+                        <th class="medium-only">Price D Fees</th>
+                        <th class="medium-only">Price W</th>
+                        <th class="medium-only">Price W Fees</th>
+                        <th class="medium-only">Price M</th>
+                        <th class="medium-only">Price M Fees</th>
+                        <th class="medium-only">Description</th>
+                        <th class="medium-only">User Name</th>
+                        <th class="medium-only">Password</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody id="GymsList">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

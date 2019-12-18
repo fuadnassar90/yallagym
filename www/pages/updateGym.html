@@ -1,0 +1,276 @@
+<div class="page" data-name="updateGym">
+    <div class="navbar">
+        <div class="navbar-bg green-bg"></div>
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a class="link back">
+                    <i class="icon icon-back color-white"></i>
+                </a>
+            </div>
+            <div class="title color-white">Update</div>
+            <div class="right">
+                <a class="link">
+                    <i class="icon f7-icons panel-open color-white">bars</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-right panel-right panel-reveal panel-resizable panel-init">
+        <div class="block">
+            <p>Right Panel content here</p>
+            <p><a class="panel-close" href="#">Close me</a></p>
+            <!--<p><a class="panel-open" href="#" data-panel=".panel-left">Open Left Panel</a></p>-->
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="list">
+            <ul>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">number_circle</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">ID</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_ID" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">person_alt_circle</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Name</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Name" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">envelope_badge</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title item-floating-label">User Name</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_user_name" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">lock_shield</i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title item-floating-label">Password</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_password" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">percent</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Rate</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Rate" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">person_3</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Visits</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Visits" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">map</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Address</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Address" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">clock</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Work Time</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_WorkTime" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media" onclick="getCurrentLocationUpdate()">
+                        <i class="icon f7-icons green-color">map</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">coordinates</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Coordinates" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">phone</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Phone</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Phone" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">envelope_badge</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Email</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Email" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price D</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceD" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar_circle</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price D Fees</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceDFees" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price W</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceW" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar_circle</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price W Fees</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceWFees" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price M</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceM" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">money_dollar_circle</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Price M Fees</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_PriceMFees" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-media">
+                        <i class="icon f7-icons green-color">doc_plaintext</i>
+                    </div>
+                    <div class="item-inner">
+                        <!-- "item-floating-label" class on item title -->
+                        <div class="item-title item-floating-label">Description</div>
+                        <div class="item-input-wrap">
+                            <input id="gym_update_Description" type="text" name="name">
+                            <span class="input-clear-button"></span>
+                        </div>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <div class="row">
+                        <div class="col">
+                            <a class="button button-raised button-round green-bg cus-btn"
+                               href="#" onclick="updateGymPost(this)">Update</a>
+                        </div>
+                    </div>
+                </li>
+                <br>
+            </ul>
+        </div>
+        <div id="updateForm">
+
+        </div>
+    </div>
+</div>

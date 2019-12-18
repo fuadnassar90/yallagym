@@ -1,0 +1,172 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1rem;
+    font-weight: 600
+}
+
+/* Custom color theme */
+:root {
+    --f7-theme-color: #97CC2D;
+    --f7-theme-color-rgb: 151, 204, 45;
+    --f7-theme-color-shade: #87b728;
+    --f7-theme-color-tint: #ABD656;
+}
+
+.button {
+    /*background-color: #97CC2D;*/
+    color: white;
+    font-size: 1.05rem;
+    letter-spacing: 0px;
+}
+
+.orange-color {
+    color: #FA9D16;
+}
+
+.green-color {
+    color: #97CC2D;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.green-bg {
+    background-color: #97CC2D;
+}
+
+.orange-bg {
+    background-color: #FA9D16;
+}
+
+.login-btn {
+    height: 55px;
+    width: 60%;
+    line-height: 3;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: auto;
+}
+
+.links-list a:after, .list .item-inner:after, .simple-list li:after {
+    height: 0px;
+}
+
+.list ul:before {
+    height: 0px;
+}
+
+.list ul:after {
+    height: 0px;
+}
+
+.page-content {
+    background-color: whitesmoke;
+}
+
+.bg-color-green1 {
+    background-color: #fff !important;
+}
+
+.selected-answer {
+    background-color: #97CC2D !important;
+}
+
+.logo-name {
+    font-size: 2rem;
+    color: #97CC2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.question-text {
+    color: #97CC2D;
+    font-size: 1.2rem;
+    text-align: center
+}
+
+.dialog-title {
+    text-align: center !important;
+}
+
+.dialog-text {
+    text-align: center !important;
+}
+
+.dialog-title {
+    height: 82px;
+    width: 76px;
+    color: transparent !important;
+    margin: 0% 35% 0% 35%;
+    background-size: cover;
+}
+
+.dialog-button {
+    margin: auto;
+    background-color: #97CC2D;
+    color: white;
+    width: 50% !important;
+    border-radius: 25px !important;
+    font-size: 1.07rem;
+}
+
+.login-screen-content {
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.data-table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: auto;
+}
+
+.panel-button {
+    background-color: #97CC2D;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ffa000;
+    margin: 3px;
+    font-size: 20px;
+    display: block;
+    color: #000;
+}
+
+.data-table td, .data-table th {
+    padding: 0.5rem !important;
+}
+
+.abb-btn {
+    font-size: 3rem !important;
+}
+
+.dialog-logo {
+    background-image: url(./YallaGymLogo.png);
+}
+
+.cus-btn {
+    width: 50%;
+    margin: auto;
+}
+
+.item-floating-label {
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+}
+
+.img-box {
+    margin: auto;
+    padding: 1%;
+    border: 2px solid #97CC2D;
+}
+
+.pb-popup {
+    width: 60%;
+    margin: auto;
+}
+
+.uploadImages {
+    width: 60%;
+    margin: auto;
+}

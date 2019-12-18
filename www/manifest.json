@@ -1,0 +1,13 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Yalla Gym",
+  "short_name": "Yalla Gym",
+  "version": "com.YallaGym.app",
+  "description": "A sample Apache Cordova application that stands for fitness.",
+  "author": "4kSoftTech",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}

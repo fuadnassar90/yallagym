@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>Yalla Gym</title>
+    <!--<link rel="stylesheet" href="css/framework7.bundle.rtl.min.css">-->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,600&display=swap&subset=arabic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+</head>
+
+<body>
+<div id="app">
+    <div class="statusbar"></div>
+    <div class="view view-main safe-areas">
+        <div class="page" data-name="index">
+            <!--<div class="navbar">-->
+            <!--<div class="navbar-bg"></div>-->
+            <!--<div class="navbar-inner sliding">-->
+            <!--<div class="left">-->
+            <!--&lt;!&ndash; <a class="link back">-->
+            <!--<i class="icon icon-back"></i>-->
+            <!--</a> &ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="title">الدخول</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <div class="page-content">
+                <br><br>
+                <div class="text-align-center">
+                    <img class="" src="css/YallaGymLogo.png" width="150">
+                </div>
+                <br>
+                <div class="login-screen-content">
+                    <br>
+                    <div class="login-screen-title green-color">Login</div>
+                    <form class="list" id="my-form">
+                        <ul>
+                            <li>
+                                <div class="item-content item-input">
+                                    <div class="item-media">
+                                        <i class="icon f7-icons green-color">envelope_badge</i>
+                                    </div>
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">User Name</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" name="name" placeholder="Enter User Name">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content item-input">
+                                    <div class="item-media">
+                                        <i class="icon f7-icons green-color">lock_shield</i>
+                                    </div>
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Password</div>
+                                        <div class="item-input-wrap">
+                                            <input type="password" name="password" placeholder="Enter Password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="block">
+                        <div class="row">
+                            <div class="col">
+                                <a class="button button-raised button-round convert-form-to-data green-bg login-btn "
+                                   href="/mainPage/">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Cordova -->
+<script src="cordova.js"></script>
+
+<!-- Framework7 library -->
+<script src="js/framework7.bundle.min.js"></script>
+
+<!-- App routes -->
+<script src="js/routes.js"></script>
+
+<!-- Your custom app scripts -->
+<script src="js/basicFunctions.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
